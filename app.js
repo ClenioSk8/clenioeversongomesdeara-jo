@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+// const db = require('./db/models')
+
 const users = require("./controllers/users");
 
 app.use('/', users);
