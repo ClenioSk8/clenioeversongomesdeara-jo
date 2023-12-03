@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.post("/users", async (req, res) => {
     return res.json({
-        mensagem:" usuário cadastrado com sucesso !!"
+        mensagem:" usuário cadastrado com sucesso !"
     });
 });
   
